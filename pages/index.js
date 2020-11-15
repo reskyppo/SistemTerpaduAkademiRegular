@@ -5,7 +5,11 @@ export default function IndexPage() {
   return (
     <>
       <head>
-        <title>Shorten-url</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+          rel="stylesheet"
+        ></link>
+        <title>Sistem Terpadu Akademik Regular</title>
       </head>
 
       <main>
@@ -14,7 +18,7 @@ export default function IndexPage() {
             <Sidebar />
           </div>
           <div className="w-1/2">
-            <Login/>
+            <Login />
           </div>
         </div>
       </main>

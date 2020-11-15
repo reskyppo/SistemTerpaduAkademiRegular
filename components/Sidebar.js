@@ -1,4 +1,3 @@
-import Image from "next/image";
 const Sidebar = () => {
   return (
     <div>
@@ -10,7 +9,9 @@ const Sidebar = () => {
         }}
       >
         <div className="h-screen bg-accent-1 bg-opacity-50 flex justify-center items-center">
-          <p className="text-6xl text-white font-extrabold ">Welcome Back!</p>
+          <p className="text-hero text-white font-extrabold ">
+            Welcome <br /> Back!
+          </p>
         </div>
       </div>
     </div>

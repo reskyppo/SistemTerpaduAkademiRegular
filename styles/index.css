@@ -7,8 +7,8 @@
 /* Stop purging. */
 
 /* Write your own custom component styles here */
-.btn-blue {
-  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+.text-hero{
+  font-size: 100px;
 }
 
 /* Start purging... */
