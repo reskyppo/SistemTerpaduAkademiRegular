@@ -1,16 +1,11 @@
-import Login from "../components/Login";
-import Sidebar from "../components/Sidebar";
-
+import { Login, Sidebar } from "../components/Home";
+import Head from "next/head";
 export default function IndexPage() {
   return (
     <>
-      <head>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-          rel="stylesheet"
-        ></link>
+      <Head>
         <title>Sistem Terpadu Akademik Regular</title>
-      </head>
+      </Head>
 
       <main>
         <div className="hidden md:flex">

@@ -2,7 +2,7 @@ import Link from "next/link";
 const Login = () => {
   return (
     <div className="pl-24 ">
-      <div className="pt-12">
+      <div className="pt-24">
         <h1 className="font-bold text-5xl">Login</h1>
         <p className="pt-4 text-2xl text-gray-500">
           Please login to your account
@@ -21,7 +21,7 @@ const Login = () => {
         <p className="text-3xl text-gray-500">Password</p>
         <input
           type="Password"
-          className="mt-5 border border-gray-500 rounded-lg px-4 text-xl h-16 w-3/5"
+          className="mt-5 border  border-gray-500 focus:border-blue-600 rounded-lg px-4 text-xl h-16 w-3/5"
         />
       </div>
 
