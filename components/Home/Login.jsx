@@ -40,9 +40,11 @@ const Login = () => {
       </div>
 
       <div className="pt-16">
-        <button className="bg-accent-1 hover:bg-blue-600 text-3xl font-semibold text-white rounded-lg h-16 w-3/5">
-          Login
-        </button>
+        <Link href="/dashboard">
+          <button className="bg-accent-1 hover:bg-blue-600 text-3xl font-semibold text-white rounded-lg h-16 w-3/5">
+            Login
+          </button>
+        </Link>
         <section className="w-3/5">
           <Link href="#">
             <a className="justify-end flex text-lg py-2 text-gray-500  hover:text-gray-800 hover:font-semibold">

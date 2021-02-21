@@ -8,6 +8,7 @@ module.exports = {
     extend: {
       colors: {
         "accent-1": "#6E97C1",
+        primer: "#2F4354",
       },
     },
   },

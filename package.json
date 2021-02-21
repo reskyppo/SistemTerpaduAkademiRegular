@@ -10,6 +10,7 @@
     "axios": "^0.21.0",
     "next": "latest",
     "react": "^16.13.1",
+    "react-accessible-accordion": "^3.3.4",
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
