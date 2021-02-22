@@ -1,5 +1,4 @@
 import {
-  Accordion,
   AccordionItem,
   AccordionItemHeading,
   AccordionItemButton,
@@ -20,6 +19,11 @@ const NavAccordion = ({ Title }) => {
         </AccordionItemButton>
       </AccordionItemHeading>
       <AccordionItemPanel>
+        <p className="mb-4">
+          Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat
+          ut occaecat consequat est minim minim esse tempor laborum consequat
+          esse adipisicing eu reprehenderit enim.
+        </p>
         <p className="mb-4">
           Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat
           ut occaecat consequat est minim minim esse tempor laborum consequat

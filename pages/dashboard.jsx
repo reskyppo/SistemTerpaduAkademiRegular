@@ -7,7 +7,7 @@ const dashboard = () => {
         <title>Dashboard</title>
       </Head>
 
-      <div className="flex h-screen justify-center ">
+      <div className="flex min-h-screen justify-center ">
         <div className="w-1/5 bg-primer">
           <Sidebar />
         </div>

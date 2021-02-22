@@ -1,11 +1,14 @@
 import Link from "next/link";
-import { Accordion } from "react-accessible-accordion";
+import { Accordion, resetNextUuid } from "react-accessible-accordion";
 import NavAccordion from "./NavAccordion";
 const NavMenu = () => {
+  resetNextUuid();
   return (
     <div>
       <Link href="/">
-        <h3 className="text-white font-semibold text-xl mb-4">Home</h3>
+        <h3 className="text-white font-semibold text-xl mb-4 cursor-pointer">
+          Home
+        </h3>
       </Link>
       <Accordion allowZeroExpanded={true}>
         <NavAccordion Title="Input/Edit Data" />

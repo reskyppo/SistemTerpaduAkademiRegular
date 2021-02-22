@@ -1,11 +1,4 @@
 import Link from "next/link";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
 import NavMenu from "./NavMenu";
 
 const Sidebar = () => {
@@ -19,8 +12,12 @@ const Sidebar = () => {
         />
       </Link>
 
-      <section className="rounded-full w-40 h-40 mx-auto bg-teal-500">
-        <img src="/logo.webp" alt="" className="w-40 h-40 rounded-full" />
+      <section className="rounded-full w-40 h-40 mx-auto">
+        <img
+          src="/images/people.jpg"
+          alt=""
+          className="w-40 h-40 rounded-full"
+        />
       </section>
 
       <section className="text-center mt-4 ">
